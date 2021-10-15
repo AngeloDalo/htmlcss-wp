@@ -38,25 +38,36 @@ a{
     text-decoration: none;
     color: grey
 }
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
 /*fine header*/
 
 /*inizio main*/
 /*css ragazza che medita e scritta*/
 .primo-piano{
     margin: auto;
-    width: 100%;
-    height: 400px;
     margin-top: 2em;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    padding: 20% 45% 10% 5%;
     border-radius: 2%;
+}
+
+.opacita{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(151, 67, 67, 0.5);
+    padding: 20% 45% 10% 5%;
 }
 
 .titolo-primo-piano,
 .scritta-primo-piano{
-    color: rgba(10, 10, 10, 0.836);
+    color:white;
 }
 /*fine css ragazza che medita e scritta*/
 
@@ -86,6 +97,7 @@ a{
     object-fit: cover;
     border-radius: 2%;
 }
+
 
 .colonna-lato{
     width: 25%;
