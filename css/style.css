@@ -93,35 +93,29 @@ li{
 
 [class*="sfondo"] {
     float: left;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 2%;
+    height: 180px;
 }
 
-.opacita1, 
-.opacita2, 
-.opacita3{
+.opacita-colonne{
     background-color: rgba(120, 67, 67, 0.3);
     height: 180px;
+    border-radius: 2%;
 }
 
 .sfondo1{
-    height: 180px;
     background-image: url(../img/img-1.jpg);
-    background-size: cover;
-    background-position: center;
     border-right: 10px solid white;
 }
 
 .sfondo2{
-    height: 180px;
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position: center; 
 }
 
 .sfondo3{
-    height: 180px;
     background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position: center; 
     border-left: 10px solid white;
 }
 
@@ -130,11 +124,14 @@ li{
     margin-top: 20px;
 }
 
-.colonna-lato, .sfondo1, .sfondo3{
+.colonna-lato, 
+.sfondo1, 
+.sfondo3{
     width: 25%;
 }
 
-.colonna-centrale, .sfondo2 {
+.colonna-centrale, 
+.sfondo2 {
     width: 50%;
 }
 
