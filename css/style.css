@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+}
+
+/*header*/
+.testata{
+    width: 100%;
+    margin-top: 1em;
+    height: 6em;
+    background-color: violet;
+}
+/*fine header*/
+
+/*inizio main*/
+.menu{
+    width: 100%;
+    margin-top: 1em;
+    height: 20em;
+    background-color: yellow;
+}
+
+/*colore blocchi con e senza float celesti*/
+.blocco{
+    background-color: lightskyblue;
+}
+
+/*blocco celeste superiore*/
+.sopra{
+    width: 100%;
+    margin-top: 1em;
+    height: 6em;
+}
+
+/*caratteristiche in comune dei tre blocchi float*/
+[class*="colonna-"] {
+    float: left;
+    border-top: 15px solid blue;
+    border-bottom: 15px solid blue;
+    height: 30em;
+}
+
+/*blocco a sinistra e a desrta*/
+.colonna-lato{
+    width: 25%;
+}
+
+.colonna-centrale {
+    width: 50%;
+}
+
+.sinistra{
+    border-right: 10px solid blue;
+}
+
+.destra{
+    border-left: 10px solid blue;
+}
+/*fine main*/
+
+/*inizio footer*/
+footer{
+    width: 100%;
+    margin-top: 0.3em;
+    height: 6em;
+    background-color: purple;
+    margin-bottom: 10px;
+}
+/*fine footer*/
