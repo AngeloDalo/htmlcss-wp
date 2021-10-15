@@ -6,6 +6,7 @@
 
 html{
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
@@ -24,28 +25,29 @@ html{
 .testata{
     width: 100%;
     margin-top: 1em;
-    height: 4em;
-    line height: 80px;
-    background-color: violet;
+    
 }
 
-.logo{
-    vertical-align: middle;
-    height: 100%;
+.logo-sito{
+    height: 65px;
 }
 
-.nome-sito{
-    display: inline-block;
-    height: 80px;
+.link{
+    margin-top: 1em;
 }
 
-
+a{
+    font-size: 14px;
+    margin-right: 1em;
+    text-decoration: none;
+    color: grey
+}
 /*fine header*/
 
 /*inizio main*/
 .menu{
     width: 100%;
-    margin-top: 1em;
+    margin-top: 6em;
     height: 20em;
     background-color: yellow;
 }
