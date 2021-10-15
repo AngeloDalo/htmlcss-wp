@@ -46,9 +46,13 @@ a{
 
 /*inizio main*/
 .primo-piano{
+    margin: auto;
     width: 100%;
+    height: 400px;
     margin-top: 6em;
-    
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
