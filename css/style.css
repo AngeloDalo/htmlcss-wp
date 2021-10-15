@@ -113,10 +113,15 @@ a{
 
 /*inizio footer*/
 footer{
+    margin-left: 40%;
     width: 100%;
     margin-top: 0.3em;
     height: 6em;
-    background-color: purple;
     margin-bottom: 10px;
 }
+
+.cuore{
+    color: red;
+}
+
 /*fine footer*/
