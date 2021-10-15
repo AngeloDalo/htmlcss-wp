@@ -91,19 +91,44 @@ li{
     border-bottom: 15px solid blue;*/
 }
 
-.immagine{
-    width: 100%;
+[class*="sfondo"] {
+    float: left;
+}
+
+.opa1, .opa2, .opa3{
+    background-color: rgba(151, 67, 67, 0.5);
     height: 180px;
-    object-fit: cover;
-    border-radius: 2%;
+}
+
+.sfondo1{
+    height: 180px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-right: 10px solid white;
+}
+
+.sfondo2{
+    height: 180px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.sfondo3{
+    height: 180px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center; 
+    border-left: 10px solid white;
 }
 
 
-.colonna-lato{
+.colonna-lato, .sfondo1, .sfondo3{
     width: 25%;
 }
 
-.colonna-centrale {
+.colonna-centrale, .sfondo2 {
     width: 50%;
 }
 
