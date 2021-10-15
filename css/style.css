@@ -45,12 +45,12 @@ a{
 /*fine header*/
 
 /*inizio main*/
-.menu{
+.primo-piano{
     width: 100%;
     margin-top: 6em;
-    height: 20em;
-    background-color: yellow;
+    
 }
+
 
 /*colore blocchi con e senza float celesti*/
 .blocco{
