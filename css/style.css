@@ -105,6 +105,10 @@ a{
 .destra{
     border-left: 10px solid white;
 }
+
+.testo-blocchi-float{
+    color: grey;
+}
 /*fine main*/
 
 /*inizio footer*/
